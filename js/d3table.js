@@ -22,6 +22,7 @@ function D3Table(divid,dataurl,colsurl) {
         this.colsurl = colsurl;
         this.thetable = null;
         this.value = null;
+        this.border = 20;
         var datatype = dataurl.substring(dataurl.lastIndexOf(".")+1).toLowerCase();
         var parser = d3.json;
         if (datatype == "tsv") {
@@ -40,7 +41,7 @@ function D3Table(divid,dataurl,colsurl) {
                               .attr("id",self.tableid)
 		              .attr("class","ExcelTable2007")
 		              .attr("style","table-layout:fixed;")
-                              .attr("width",(window.innerWidth-50)+"px");
+                              .attr("width","100%;");
                 var thead = table.append("thead");
                 var tbody = table.append("tbody").attr("class","list");
 
