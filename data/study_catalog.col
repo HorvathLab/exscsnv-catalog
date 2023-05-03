@@ -17,7 +17,8 @@
     "label": "NCBI SRA",
     "tag": "sraid",
     "type": "extid",
-    "exturl": "data/study/study_",
+    "exturl": "https://www.ncbi.nlm.nih.gov/bioproject/",
+    "width": "100px",
     "align": "left"
   }
 ]
