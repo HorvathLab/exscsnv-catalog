@@ -53,7 +53,6 @@ function D3Table(divid,dataurl,colsurl) {
                      .append("th")
 	             .attr("align","center")
 	             .attr("valign","bottom")
-		     .attr("class","ExcelTable2007")
 	             .attr("width",function(column) {
 	                 if (column.width !== undefined) {
 	                     return column.width;
