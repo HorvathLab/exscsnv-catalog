@@ -45,12 +45,14 @@ function D3Table(divid,dataurl,colsurl) {
                 var tbody = table.append("tbody").attr("class","list");
 
                 thead.append("tr")
+		     .attr("class","ExcelTable2007")
                      .selectAll("th")
                      .data(columns)
                      .enter()
                      .append("th")
 	             .attr("align","center")
 	             .attr("valign","bottom")
+		     .attr("class","ExcelTable2007")
 	             .attr("width",function(column) {
 	                 if (column.width !== undefined) {
 	                     return column.width;
