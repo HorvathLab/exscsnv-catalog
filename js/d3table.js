@@ -71,7 +71,8 @@ function D3Table(elt,dataurl,colsurl) {
                          }
                      })
                      .text(function(column) { return column.label; });
-
+            });
+        });
     }
 }
 D3Table.prototype = new D3Table();
