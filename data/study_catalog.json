@@ -1,0 +1,24 @@
+[ 
+  {
+    "label": "StudyID",
+    "tag": "studyid",
+    "type": "extid",
+    "exturl": "data/study/study_",
+    "width": "100px",
+    "align": "left",
+    "oddeven": "true"
+  },
+  {
+    "label": "Name",
+    "tag": "name",
+    "align": "left",
+  },
+  {
+    "label": "NCBI SRA",
+    "tag": "sraid",
+    "type": "extid",
+    "exturl": "data/study/study_",
+    "align": "left",
+  }
+]
+
