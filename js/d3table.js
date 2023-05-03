@@ -14,13 +14,13 @@ let d3table = {
 }
 
 function D3Table(elt,dataurl,colsurl) {
-    this.dataurl = dataurl;
-    this.colsurl = colsurl;
-    this.thetable = null;
-    this.value = null;
-    if (this.elt) {
+    if (elt) {
         this.divid = elt.getAttribute('id');
         this.tableid = this.divid + "-thetable";
+        this.dataurl = dataurl;
+        this.colsurl = colsurl;
+        this.thetable = null;
+        this.value = null;
         var datatype = dataurl.substring(dataurl.lastIndexOf(".")+1).toLowerCase();
         var parser = d3.json;
         if (datatype == "tsv") {
