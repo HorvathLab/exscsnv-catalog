@@ -32,6 +32,8 @@ table.ExcelTable2007 th {
 	border: 1px solid #9EB6CE;
 	border-width: 0px 1px 1px 0px;
 	height: 17px;
+	padding: inherit;
+	font-family: inherit;
 }
 
 table.ExcelTable2007 td {
