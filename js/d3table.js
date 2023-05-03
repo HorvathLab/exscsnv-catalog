@@ -14,6 +14,7 @@ let d3table = {
 }
 
 function D3Table(elt,dataurl,colsurl) {
+    console.log(elt);
     if (elt) {
         this.divid = elt.getAttribute('id');
         this.tableid = this.divid + "-thetable";
@@ -28,10 +29,10 @@ function D3Table(elt,dataurl,colsurl) {
         } else if (datatype == "csv") {
             parser = d3.csv;
         }
-        dataurl = dataurl +"?random=" + Math.random();
-        colsurl = dataurl +"?random=" + Math.random();
-        parser(dataurl, function(data) {
-            d3.json(colsurl, function(columns) {
+        dataurl1 = dataurl +"?random=" + Math.random();
+        colsurl1 = colsurl +"?random=" + Math.random();
+        parser(dataurl1, function(data) {
+            d3.json(colsurl1, function(columns) {
                 var table = elt.append("table")
                                .attr("id",this.tableid)
 		               .attr("class","ExcelTable2007")
