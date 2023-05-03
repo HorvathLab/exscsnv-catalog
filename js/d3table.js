@@ -2,12 +2,12 @@
 "use strict";
 
 let d3table = {
-    this.init = function() {
+    init: function() {
         var elts = document.getElementsByClass('d3table');
         for (var i=0; i<elts.length; i++) {
             var elt = elts[i];
-            var dataurl = elt.getAttribute('dataurl');
-            var colsurl = elt.getAttribute('colsurl');
+            var dataurl = elt.getAttribute('data');
+            var colsurl = elt.getAttribute('cols');
             var t = new D3Table(elt, dataurl, colsurl);
 	}
     }
