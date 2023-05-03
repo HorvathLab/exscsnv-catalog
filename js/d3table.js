@@ -3,7 +3,7 @@
 
 let d3table = {
     init: function() {
-        var elts = document.getElementsByClass('d3table');
+        var elts = document.getElementsByClassName('d3table');
         for (var i=0; i<elts.length; i++) {
             var elt = elts[i];
             var dataurl = elt.getAttribute('data');
