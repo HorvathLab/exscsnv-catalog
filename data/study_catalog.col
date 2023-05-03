@@ -11,14 +11,14 @@
   {
     "label": "Name",
     "tag": "name",
-    "align": "left",
+    "align": "left"
   },
   {
     "label": "NCBI SRA",
     "tag": "sraid",
     "type": "extid",
     "exturl": "data/study/study_",
-    "align": "left",
+    "align": "left"
   }
 ]
 

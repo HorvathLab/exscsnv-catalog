@@ -6,17 +6,17 @@ let d3table = {
         var elts = document.getElementsByClassName('d3table');
         for (var i=0; i<elts.length; i++) {
             var elt = elts[i];
+            var divid = elt.getAttribute('id');
             var dataurl = elt.getAttribute('data');
             var colsurl = elt.getAttribute('cols');
-            var t = new D3Table(elt, dataurl, colsurl);
+            var t = new D3Table(divid, dataurl, colsurl);
 	}
     }
 }
 
-function D3Table(elt,dataurl,colsurl) {
-    console.log(elt);
-    if (elt) {
-        this.divid = elt.getAttribute('id');
+function D3Table(divid,dataurl,colsurl) {
+    if (divid!==undefined) {
+        this.divid = divid;
         this.tableid = this.divid + "-thetable";
         this.dataurl = dataurl;
         this.colsurl = colsurl;
@@ -29,14 +29,18 @@ function D3Table(elt,dataurl,colsurl) {
         } else if (datatype == "csv") {
             parser = d3.csv;
         }
-        dataurl1 = dataurl +"?random=" + Math.random();
-        colsurl1 = colsurl +"?random=" + Math.random();
+        var dataurl1 = this.dataurl +"?random=" + Math.random();
+        var colsurl1 = this.colsurl +"?random=" + Math.random();
+        console.log(this);
+        var self = this;
         parser(dataurl1, function(data) {
             d3.json(colsurl1, function(columns) {
-                var table = elt.append("table")
-                               .attr("id",this.tableid)
-		               .attr("class","ExcelTable2007")
-		               .attr("style","table-layout:fixed;")
+                var table = d3.select('#'+self.divid)
+                              .append("table")
+                              .attr("id",self.tableid)
+		              .attr("class","ExcelTable2007")
+		              .attr("style","table-layout:fixed;")
+                              .attr("width",(window.innerWidth-50)+"px");
                 var thead = table.append("thead");
                 var tbody = table.append("tbody").attr("class","list");
 
