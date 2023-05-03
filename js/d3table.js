@@ -1,7 +1,7 @@
 
 "use strict";
 
-let d3table {
+let d3table = {
     this.init() {
         var elts = document.getElementsByClass('d3table');
         for (var i=0; i<elts.length; i++) {
