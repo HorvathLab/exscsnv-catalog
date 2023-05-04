@@ -20,6 +20,14 @@
     "exturl": "https://www.ncbi.nlm.nih.gov/bioproject/",
     "width": "100px",
     "align": "left"
+  },
+  {
+    "label": "PubMed",
+    "tag": "pmid",
+    "type": "extid",
+    "exturl": "https://pubmed.ncbi.nlm.nih.gov/",
+    "width": "100px",
+    "align": "left"
   }
 ]
 

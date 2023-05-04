@@ -1,3 +1,3 @@
-studyid	name	sraid
-ST0001	Genetic and transcriptional evolution alters cancer cell line drug response	PRJNA471582
-ST0002	Identification of a distinct luminal subgroup diagnosing and stratifying early stage prostate cancer by tissue-based single-cell RNA sequencing (human)	PRJNA662503
+studyid	name	sraid	pmid
+ST0001	Genetic and transcriptional variation alters cancer cell line drug response [MCF7 strain AA] (human)	PRJNA471582	 30089904
+ST0002	Identification of a distinct luminal subgroup diagnosing and stratifying early stage prostate cancer by tissue-based single-cell RNA sequencing (human)	PRJNA662503	33032611
