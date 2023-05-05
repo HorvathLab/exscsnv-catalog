@@ -5,3 +5,7 @@ Introduction text,.........
 
 <div id="study_table" class="d3table" data="data/study_catalog.tsv" cols="data/study_catalog.col"/>
 
+## Samples
+
+<div id="sample_table" class="d3table" data="data/sample_catalog.tsv" cols="data/sample_catalog.col"/>
+
