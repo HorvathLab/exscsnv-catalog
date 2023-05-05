@@ -1,7 +1,7 @@
 [study]
 studyid: ST0001
 name: Genetic and transcriptional variation alters cancer cell line drug response [MCF7 strain AA]
-sraid: PRJNA471582
+bioprojectid: PRJNA471582
 pmid: 30089904
 sample: MCF7-AA-t0, MCF7-AA-t12, MCF7-AA-t48, MCF7-AA-t96
 organism: Homo sapiens (9606)

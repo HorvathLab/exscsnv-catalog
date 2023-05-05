@@ -14,12 +14,6 @@
     "align": "left"
   },
   {
-    "label": "Organism",
-    "tag": "organism",
-    "align": "left",
-    "width": "200px"
-  },
-  {
     "label": "BioProject",
     "tag": "bioprojectid",
     "type": "extid",
