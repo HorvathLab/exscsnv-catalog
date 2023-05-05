@@ -20,8 +20,8 @@
     "width": "200px"
   },
   {
-    "label": "NCBI SRA",
-    "tag": "sraid",
+    "label": "BioProject",
+    "tag": "bioprojectid",
     "type": "extid",
     "exturl": "https://www.ncbi.nlm.nih.gov/bioproject/",
     "width": "100px",
