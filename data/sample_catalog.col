@@ -6,7 +6,7 @@
     "exturl": "data/study/study_",
     "width": "100px",
     "align": "left",
-    "oddeven": "true",
+    "oddeven": "true"
   },
   {
     "label": "Sample Name",
