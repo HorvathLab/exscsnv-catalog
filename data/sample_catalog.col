@@ -11,6 +11,7 @@
   {
     "label": "Sample Name",
     "tag": "name",
+    "width": "150",
     "align": "left"
   },
   {
@@ -31,12 +32,6 @@
     "label": "Cell type",
     "tag": "cell type",
     "width": "100px",
-    "align": "left"
-  },
-  {
-    "label": "Organism",
-    "tag": "organism",
-    "width": "200px",
     "align": "left"
   }
 ]
