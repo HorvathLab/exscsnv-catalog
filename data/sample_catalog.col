@@ -16,13 +16,11 @@
   {
     "label": "Source",
     "tag": "source name",
-    "width": "100px",
     "align": "left"
   },
   {
     "label": "Cell type",
     "tag": "cell type",
-    "width": "100px",
     "align": "left"
   },
   {
@@ -30,7 +28,7 @@
     "tag": "biosampleid",
     "type": "extid",
     "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
-    "width": "100px",
+    "width": "110px",
     "align": "left"
   }
 ]
