@@ -1,7 +1,1 @@
 studyid	name	biosampleid	organism	source name	cell type
-ST0001	MCF7-AA-t48	SAMN09210328	Homo sapiens (9606)	MCF7 human cancer cell line	human cancer cell line
-ST0001	MCF7-AA-t96	SAMN09210327	Homo sapiens (9606)	MCF7 human cancer cell line	human cancer cell line
-ST0001	MCF7-AA-t0	SAMN09210331	Homo sapiens (9606)	MCF7 human cancer cell line	human cancer cell line
-ST0001	MCF7-AA-t12	SAMN09210329	Homo sapiens (9606)	MCF7 human cancer cell line	human cancer cell line
-ST0002	PCa1	SAMN16086830	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate
-ST0002	PCa2	SAMN16086829	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate

@@ -10,5 +10,5 @@ fi
 ./scripts/make_catalog.py ./data > ./data/study_catalog.tsv
 ./scripts/make_samples.py ./data > ./data/sample_catalog.tsv
 for d in data/study/ST*; do
-  ( cd $d; make_index_html.sh )
+  ( cd $d; make_index_html.sh --force )
 done

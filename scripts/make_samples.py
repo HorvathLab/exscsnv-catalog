@@ -16,7 +16,8 @@ print("\t".join(headers))
 for mdf in glob.glob('data/study/*/*_metadata.tsv'):
     md.read(mdf)
     study = dict(md.items('study'))
-    samples = set(map(str.strip,study['sample'].split(',')))
+    samples = map(str.strip,study['sample'].split(','))
+    samples = sorted(set(samples),key=samples.index)
     for s in samples:
         sample = dict(md.items('sample:%s'%(s,)))
         row = dict(studyid=study['studyid'],organism=study['organism'])
