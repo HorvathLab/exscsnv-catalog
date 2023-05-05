@@ -3,7 +3,7 @@
     "label": "StudyID",
     "tag": "studyid",
     "type": "extid",
-    "exturl": "data/study/study_",
+    "exturl": "data/study/",
     "width": "60px",
     "align": "left",
     "oddeven": "true"

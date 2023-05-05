@@ -13,7 +13,7 @@ headers = """
 """.split()
 
 print("\t".join(headers))
-for mdf in glob.glob('data/study/*/*_metadata.tsv'):
+for mdf in glob.glob('data/study/*/*_metadata.txt'):
     md.read(mdf)
     study = dict(md.items('study'))
     row = {}

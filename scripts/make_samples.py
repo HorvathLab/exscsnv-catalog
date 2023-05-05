@@ -13,10 +13,10 @@ headers = list(filter(None,map(str.strip,"""
 """.splitlines())))
 
 print("\t".join(headers))
-for mdf in glob.glob('data/study/*/*_metadata.tsv'):
+for mdf in glob.glob('data/study/*/*_metadata.txt'):
     md.read(mdf)
     study = dict(md.items('study'))
-    samples = map(str.strip,study['sample'].split(','))
+    samples = list(map(str.strip,study['sample'].split(',')))
     samples = sorted(set(samples),key=samples.index)
     for s in samples:
         sample = dict(md.items('sample:%s'%(s,)))
