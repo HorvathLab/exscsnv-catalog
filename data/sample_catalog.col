@@ -15,14 +15,6 @@
     "align": "left"
   },
   {
-    "label": "BioSample",
-    "tag": "biosampleid",
-    "type": "extid",
-    "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
-    "width": "120px",
-    "align": "left"
-  },
-  {
     "label": "Source",
     "tag": "source name",
     "width": "100px",
@@ -32,6 +24,14 @@
     "label": "Cell type",
     "tag": "cell type",
     "width": "100px",
+    "align": "left"
+  },
+  {
+    "label": "BioSample",
+    "tag": "biosampleid",
+    "type": "extid",
+    "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
+    "width": "120px",
     "align": "left"
   }
 ]
