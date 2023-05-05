@@ -11,7 +11,6 @@
   {
     "label": "Sample Name",
     "tag": "name",
-    "width": "150",
     "align": "left"
   },
   {
@@ -31,7 +30,7 @@
     "tag": "biosampleid",
     "type": "extid",
     "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
-    "width": "120px",
+    "width": "100px",
     "align": "left"
   }
 ]
