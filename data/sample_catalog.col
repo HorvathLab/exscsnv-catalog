@@ -4,14 +4,13 @@
     "tag": "studyid",
     "type": "extid",
     "exturl": "data/study/study_",
-    "width": "100px",
+    "width": "60px",
     "align": "left",
     "oddeven": "true"
   },
   {
     "label": "Sample Name",
     "tag": "name",
-    "width": "100px",
     "align": "left"
   },
   {
@@ -19,19 +18,19 @@
     "tag": "biosampleid",
     "type": "extid",
     "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
-    "width": "100px",
+    "width": "120px",
     "align": "left"
   },
   {
     "label": "Source",
     "tag": "source name",
-    "width": "200px",
+    "width": "100px",
     "align": "left"
   },
   {
     "label": "Cell type",
     "tag": "cell type",
-    "width": "200px",
+    "width": "100px",
     "align": "left"
   },
   {

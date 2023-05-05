@@ -4,7 +4,7 @@
     "tag": "studyid",
     "type": "extid",
     "exturl": "data/study/study_",
-    "width": "100px",
+    "width": "60px",
     "align": "left",
     "oddeven": "true"
   },
@@ -26,7 +26,7 @@
     "tag": "pmid",
     "type": "extid",
     "exturl": "https://pubmed.ncbi.nlm.nih.gov/",
-    "width": "100px",
+    "width": "80px",
     "align": "left"
   }
 ]
