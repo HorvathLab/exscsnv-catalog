@@ -1,6 +1,6 @@
-studyid	name	biosampleid	organism	source name	cell type
-ST0001	LUAD brain met1 scRNA-seq	SAMN13822234	Homo sapiens (9606)	brain	
-ST0001	LUAD brain met2 scRNA-seq	SAMN13822233	Homo sapiens (9606)	brain	
-ST0001	LUAD brain met3 scRNA-seq	SAMN13822232	Homo sapiens (9606)	brain	
-ST0002	PCa1	SAMN16086830	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate
-ST0002	PCa2	SAMN16086829	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate
+studyid	name	biosampleid	organism	source name	cell type	disease
+ST0001	LUAD brain met1 scRNA-seq	SAMN13822234	Homo sapiens (9606)	Brain		Lung adenocarcinoma
+ST0001	LUAD brain met2 scRNA-seq	SAMN13822233	Homo sapiens (9606)	Brain		Lung adenocarcinoma
+ST0001	LUAD brain met3 scRNA-seq	SAMN13822232	Homo sapiens (9606)	Brain		Lung adenocarcinoma
+ST0002	PCa1	SAMN16086830	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate	Prostate cancer
+ST0002	PCa2	SAMN16086829	Homo sapiens (9606)	Cancerous prostate tissue	Cells isolated from cancerous prostate	Prostate cancer

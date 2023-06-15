@@ -12,6 +12,7 @@ biosampleid: SAMN16086830
 source name: Cancerous prostate tissue
 cell type: Cells isolated from cancerous prostate
 tissue: Cancerous prostate tissue
+disease: Prostate cancer
 tumor stage: Prostate cancer with a Gleason score of 6 (3 + 3) 
 id: pc1
 chromium version: v2
@@ -23,6 +24,7 @@ biosampleid: SAMN16086829
 source name: Cancerous prostate tissue
 cell type: Cells isolated from cancerous prostate
 tissue: Cancerous prostate tissue
+disease: Prostate cancer
 tumor stage: Prostate cancer with a Gleason score of 7 (3 + 4) 
 id: pc2
 chromium version: v2

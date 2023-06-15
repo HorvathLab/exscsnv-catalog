@@ -10,6 +10,7 @@ headers = list(filter(None,map(str.strip,"""
   organism
   source name
   cell type
+  disease
 """.splitlines())))
 
 print("\t".join(headers))

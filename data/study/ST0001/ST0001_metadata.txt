@@ -8,9 +8,9 @@ organism: Homo sapiens (9606)
 [sample:LUAD brain met1 scRNA-seq]
 name: LUAD brain met1 scRNA-seq
 biosampleid: SAMN13822234
-source name: brain
+source name: Brain
 disease: Lung adenocarcinoma
-tissue: brain
+tissue: Brain
 age: 28
 sex: female 
 id: nsclc3
@@ -20,9 +20,9 @@ read length: 150
 [sample:LUAD brain met2 scRNA-seq]
 name: LUAD brain met2 scRNA-seq
 biosampleid: SAMN13822233
-source name: brain
+source name: Brain
 disease: Lung adenocarcinoma
-tissue: brain
+tissue: Brain
 age: 43
 sex: male 
 id: nsclc2
@@ -32,9 +32,9 @@ read length: 150
 [sample:LUAD brain met3 scRNA-seq]
 name: LUAD brain met3 scRNA-seq
 biosampleid: SAMN13822232
-source name: brain
+source name: Brain
 disease: Lung adenocarcinoma
-tissue: brain
+tissue: Brain
 age: 59
 sex: male 
 id: nsclc1
@@ -44,8 +44,8 @@ read length: 150
 [sample:TNBC brain met scRNA-seq]
 name: TNBC brain met scRNA-seq
 biosampleid: SAMN13822231
-source name: brain
+source name: Brain
 disease: Triple negative breast cancer 
-tissue: brain
+tissue: Brain
 age: 44
 sex: female 
