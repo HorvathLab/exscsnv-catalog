@@ -13,6 +13,7 @@ source name: Cancerous prostate tissue
 cell type: Cells isolated from cancerous prostate
 tissue: Cancerous prostate tissue
 tumor stage: Prostate cancer with a Gleason score of 6 (3 + 3) 
+id: pc1
 
 [sample:PCa2]
 name: PCa2
@@ -21,4 +22,5 @@ source name: Cancerous prostate tissue
 cell type: Cells isolated from cancerous prostate
 tissue: Cancerous prostate tissue
 tumor stage: Prostate cancer with a Gleason score of 7 (3 + 4) 
+id: pc2
 

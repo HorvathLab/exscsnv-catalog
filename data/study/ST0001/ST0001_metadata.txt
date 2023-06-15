@@ -1,48 +1,45 @@
 [study]
 studyid: ST0001
-name: Genetic and transcriptional variation alters cancer cell line drug response [MCF7 strain AA]
-bioprojectid: PRJNA471582
-pmid: 30089904
-sample: MCF7-AA-t0, MCF7-AA-t12, MCF7-AA-t48, MCF7-AA-t96
+name: Single-Cell Map of Diverse Immune Phenotypes in the Metastatic Brain Tumor Microenvironment of Non Small Cell Lung Cancer and triple negative breast cancer
+bioprojectid: PRJNA600483
+sample: LUAD brain met1 scRNA-seq, LUAD brain met2 scRNA-seq, LUAD brain met3 scRNA-seq
 organism: Homo sapiens (9606)
 
-[sample:MCF7-AA-t0]
-name: MCF7-AA-t0
-biosampleid: SAMN09210331
-source name: MCF7 human cancer cell line
-cell type: human cancer cell line
-timepoint: 0 hr of exposure (t0)
-cell line background: MCF7
-cell line strain: AA
-treated with: bortezomib (500nM) 
+[sample:LUAD brain met1 scRNA-seq]
+name: LUAD brain met1 scRNA-seq
+biosampleid: SAMN13822234
+source name: brain
+disease: Lung adenocarcinoma
+tissue: brain
+age: 28
+sex: female 
+id: nsclc3
 
-[sample:MCF7-AA-t12]
-name: MCF7-AA-t12
-biosampleid: SAMN09210329
-source name: MCF7 human cancer cell line
-cell type: human cancer cell line
-timepoint: 12 hours of exposure (t12) 
-cell line background: MCF7
-cell line strain: AA
-treated with: bortezomib (500nM) 
+[sample:LUAD brain met2 scRNA-seq]
+name: LUAD brain met2 scRNA-seq
+biosampleid: SAMN13822233
+source name: brain
+disease: Lung adenocarcinoma
+tissue: brain
+age: 43
+sex: male 
+id: nsclc2
 
-[sample:MCF7-AA-t48]
-name: MCF7-AA-t48
-biosampleid: SAMN09210328
-source name: MCF7 human cancer cell line
-cell type: human cancer cell line
-timepoint: 48 hours of exposure (t48) 
-cell line background: MCF7
-cell line strain: AA
-treated with: bortezomib (500nM) 
+[sample:LUAD brain met3 scRNA-seq]
+name: LUAD brain met3 scRNA-seq
+biosampleid: SAMN13822232
+source name: brain
+disease: Lung adenocarcinoma
+tissue: brain
+age: 59
+sex: male 
+id: nsclc1
 
-[sample:MCF7-AA-t96]
-name: MCF7-AA-t96
-biosampleid: SAMN09210327
-source name: MCF7 human cancer cell line
-cell type: human cancer cell line
-timepoint: after 72 hours of exposure followed by drug wash and 24 hours of recovery (t72+24)
-cell line background: MCF7
-cell line strain: AA
-treated with: bortezomib (500nM) 
-
+[sample:TNBC brain met scRNA-seq]
+name: TNBC brain met scRNA-seq
+biosampleid: SAMN13822231
+source name: brain
+disease: Triple negative breast cancer 
+tissue: brain
+age: 44
+sex: female 
