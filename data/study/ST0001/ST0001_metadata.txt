@@ -14,6 +14,8 @@ tissue: brain
 age: 28
 sex: female 
 id: nsclc3
+chromium version: v2
+read length: 150
 
 [sample:LUAD brain met2 scRNA-seq]
 name: LUAD brain met2 scRNA-seq
@@ -24,6 +26,8 @@ tissue: brain
 age: 43
 sex: male 
 id: nsclc2
+chromium version: v2
+read length: 150
 
 [sample:LUAD brain met3 scRNA-seq]
 name: LUAD brain met3 scRNA-seq
@@ -34,6 +38,8 @@ tissue: brain
 age: 59
 sex: male 
 id: nsclc1
+chromium version: v2
+read length: 150
 
 [sample:TNBC brain met scRNA-seq]
 name: TNBC brain met scRNA-seq
