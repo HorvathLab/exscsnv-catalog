@@ -2,7 +2,7 @@
 studyid: ST0004
 name: Transcriptomic Characterization of neuroblastoma by Single Cell RNA Sequencing
 bioprojectid: PRJNA573097
-pubmed: 32946775
+pmid: 32946775
 organism: Homo sapiens (9606)
 chromium version: v2
 read length: 150
