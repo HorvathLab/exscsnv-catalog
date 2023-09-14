@@ -3,30 +3,23 @@ studyid: ST0002
 name: Identification of a distinct luminal subgroup diagnosing and stratifying early stage prostate cancer by tissue-based single-cell RNA sequencing
 bioprojectid: PRJNA662503
 pmid: 33032611
-sample: PCa1, PCa2
 organism: Homo sapiens (9606)
+source name: Cancerous prostate tissue
+cell type: Cells isolated from cancerous prostate
+tissue: Cancerous prostate tissue
+disease: Prostate cancer
+chromium version: v2
+read length: 150
 
 [sample:PCa1]
 name: PCa1
 biosampleid: SAMN16086830
-source name: Cancerous prostate tissue
-cell type: Cells isolated from cancerous prostate
-tissue: Cancerous prostate tissue
-disease: Prostate cancer
 tumor stage: Prostate cancer with a Gleason score of 6 (3 + 3) 
 id: pc1
-chromium version: v2
-read length: 150
 
 [sample:PCa2]
 name: PCa2
 biosampleid: SAMN16086829
-source name: Cancerous prostate tissue
-cell type: Cells isolated from cancerous prostate
-tissue: Cancerous prostate tissue
-disease: Prostate cancer
 tumor stage: Prostate cancer with a Gleason score of 7 (3 + 4) 
 id: pc2
-chromium version: v2
-read length: 150
 

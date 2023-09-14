@@ -1,0 +1,160 @@
+[study]
+studyid: ST0004
+name: Transcriptomic Characterization of neuroblastoma by Single Cell RNA Sequencing
+bioprojectid: PRJNA573097
+pubmed: 32946775
+organism: Homo sapiens (9606)
+chromium version: v2
+read length: 150
+
+[sample:F107]
+name: F107
+biosampleid: SAMN12799257
+age: 13+2 PCW (post-conception wk)
+source name: fetal adrenal tissue
+disease: normal fetal adrenal tissue
+id: fa4
+
+[sample:F106]
+name: F106
+biosampleid: SAMN12799258
+age: 14+4 PCW (post-conception wk)
+source name: fetal adrenal tissue
+disease: normal fetal adrenal tissue
+id: fa3
+
+[sample:F7]
+name: F7
+biosampleid: SAMN12799259
+age: 8+3 PCW (post-conception wk)
+source name: fetal adrenal tissue
+disease: normal fetal adrenal tissue
+id: fa2
+
+[sample:F2]
+name: F2
+biosampleid: SAMN12799261
+age: 8+6 PCW (post-conception wk)
+source name: fetal adrenal tissue
+disease: normal fetal adrenal tissue
+id: fa1
+
+[sample:T92]
+name: T92
+biosampleid: SAMN12799263
+sex: female
+age: 3Y5M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb9
+
+[sample:T75]
+name: T75
+biosampleid: SAMN12799264
+sex: male
+age: 9M10D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb8
+
+[sample:T71]
+name: T71
+biosampleid: SAMN12799266
+sex: male
+age: 5D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb7
+
+[sample:T44]
+name: T44
+biosampleid: SAMN12799269
+sex: female
+age: 2M6D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb6
+
+[sample:T40]
+name: T40
+biosampleid: SAMN12799270
+sex: male
+age: 2M26D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb5
+
+[sample:T34]
+name: T34
+biosampleid: SAMN12799272
+sex: female
+age: 3Y2M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb4
+
+[sample:T27]
+name: T27
+biosampleid: SAMN12799273
+sex: male
+age: 3Y4M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb3
+
+[sample:T19]
+name: T19
+biosampleid: SAMN12799274
+sex: female
+age: 2Y2M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb2
+
+[sample:T10]
+name: T10
+biosampleid: SAMN12799275
+sex: male
+age: 3Y3M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+id: nb1
+
+[sample:F366]
+name: F366
+biosampleid: SAMN15453062
+age: about 4 PCW
+source name: fetal adrenal tissue
+disease: normal embryo
+chromium version: v3
+id: ne1
+
+[sample:T230]
+name: T230
+biosampleid: SAMN15453063
+sex: male
+age: 4Y8M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+chromium version: v3
+id: nb10
+
+[sample:T214]
+name: T214
+biosampleid: SAMN15453064
+sex: female
+age: 3M28D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+chromium version: v3
+id: nb11
+
+[sample:F379]
+name: F379
+biosampleid: SAMN15453069
+age: about 4 PCW
+source name: fetal adrenal tissue
+disease: normal embryo
+chromium version: v3
+id: ne2
+
