@@ -4,10 +4,10 @@ name: Identification of a distinct luminal subgroup diagnosing and stratifying e
 bioprojectid: PRJNA662503
 pmid: 33032611
 organism: Homo sapiens (9606)
-source name: Cancerous prostate tissue
+source name: cancerous prostate tissue
 cell type: Cells isolated from cancerous prostate
-tissue: Cancerous prostate tissue
-disease: Prostate cancer
+tissue: cancerous prostate tissue
+disease: prostate cancer
 chromium version: v2
 read length: 150
 
