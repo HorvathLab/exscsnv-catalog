@@ -1,7 +1,6 @@
 #!/bin/env python3
 
 import sys, os, glob, csv, configparser
-md = configparser.ConfigParser()
 
 headers = """
   studyid
@@ -14,11 +13,16 @@ headers = """
 
 print("\t".join(headers))
 for mdf in glob.glob('data/study/*/*_metadata.txt'):
+    md = configparser.ConfigParser()
     md.read(mdf)
     study = dict(md.items('study'))
     row = {}
     for h in headers:
         if h in study:
             row[h] = study[h]
-    row['sample_count'] = len(set(filter(None,map(str.strip,study['sample'].split(',')))))
+    sample_count = 0
+    for sec in md.sections():
+        if sec.startswith('sample:'):
+            sample_count += 1
+    row['sample_count'] = sample_count
     print("\t".join(map(lambda h: str(row.get(h,"")),headers)))
