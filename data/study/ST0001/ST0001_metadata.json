@@ -1,0 +1,34 @@
+{
+  "studyid": "ST0001",
+  "name": "Single-Cell Map of Diverse Immune Phenotypes in the Metastatic Brain Tumor Microenvironment of Non Small Cell Lung Cancer and triple negative breast cancer",
+  "bioprojectid": "PRJNA600483",
+  "organism": "Homo sapiens (9606)",
+  "source name": "brain",
+  "tissue": "brain",
+  "disease": "lung adenocarcinoma",
+  "chromium version": "v2",
+  "read length": "150",
+  "samples": [
+    {
+      "name": "LUAD brain met1 scRNA-seq",
+      "biosampleid": "SAMN13822234",
+      "age": "28",
+      "sex": "female",
+      "id": "nsclc3"
+    },
+    {
+      "name": "LUAD brain met2 scRNA-seq",
+      "biosampleid": "SAMN13822233",
+      "age": "43",
+      "sex": "male",
+      "id": "nsclc2"
+    },
+    {
+      "name": "LUAD brain met3 scRNA-seq",
+      "biosampleid": "SAMN13822232",
+      "age": "59",
+      "sex": "male",
+      "id": "nsclc1"
+    }
+  ]
+}

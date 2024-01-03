@@ -1,0 +1,46 @@
+{
+  "studyid": "ST0003",
+  "name": "Dissecting the transcriptomic landscape of the human intrahepatic cholangiocarcinoma by single cell RNA-sequencing",
+  "bioprojectid": "PRJNA576876",
+  "pubmed": "",
+  "organism": "Homo sapiens (9606)",
+  "disease": "cholangiocarcinoma",
+  "tissue": "human intrahepatic cholangiocarcinoma",
+  "source name": "tumor",
+  "chromium version": "v2",
+  "read length": "150",
+  "samples": [
+    {
+      "name": "ICC_24_Tumor2: FACS24T",
+      "biosampleid": "SAMN13012145",
+      "id": "chlg1"
+    },
+    {
+      "name": "ICC_24_Tumor1: CCC24T",
+      "biosampleid": "SAMN13012146",
+      "id": "chlg2"
+    },
+    {
+      "name": "ICC_23_Tumor: 171239E-ccc23T",
+      "biosampleid": "SAMN13012147",
+      "id": "chlg3"
+    },
+    {
+      "name": "ICC_23_Adjacent: 171239E-ccc23N",
+      "biosampleid": "SAMN13012148",
+      "source name": "adjacent",
+      "tissue": "human intrahepatic cholangiocarcinoma adjacent",
+      "id": "chlg4"
+    },
+    {
+      "name": "ICC_20_Tumor: 171239A-ccc20T",
+      "biosampleid": "SAMN13012149",
+      "id": "chlg5"
+    },
+    {
+      "name": "ICC_18_Tumor: BAJD-20180619-12-171239-18T",
+      "biosampleid": "SAMN13012150",
+      "id": "chlg6"
+    }
+  ]
+}
