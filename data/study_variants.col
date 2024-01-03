@@ -1,0 +1,59 @@
+[ 
+  {
+    "label": "Locus",
+    "tag": "SNV",
+    "width": "120px",
+    "align": "left",
+    "searchable": true,
+    "sortable": true
+  },
+  {
+    "label": "dbSNP",
+    "tag": "rsID",
+    "type": "extid",
+    "idtype": "int",
+    "exturl": "https://www.ncbi.nlm.nih.gov/snp/rs",
+    "align": "right",
+    "searchable": true,
+    "sortable": true,
+    "width": "90px"
+  },
+  {
+    "label": "Gene",
+    "tag": "geneList",
+    "align": "left",
+    "type": "extid",
+    "exturl": "https://www.genecards.org/cgi-bin/carddisp.pl?gene=",
+    "searchable": true,
+    "sortable": true,
+    "width": "100px"
+  },
+  {
+    "label": "Function",
+    "tag": "functionGVS",
+    "align": "left",
+    "searchable": true,
+    "sortable": true,
+    "width": "120px"
+  },
+  {
+    "label": "VAF",
+    "tag": "vaf",
+    "align": "right",
+    "width": "60px",
+    "searchable": true,
+    "sortable": true,
+    "type": "percent",
+    "fixed": 2
+  },
+  {
+    "label": "#S",
+    "tag": "N_samples",
+    "type": "int",
+    "align": "right",
+    "searchable": true,
+    "sortable": true,
+    "width": "50px"
+  }
+]
+

@@ -6,7 +6,7 @@
     "exturl": "data/study/",
     "width": "60px",
     "align": "left",
-    "oddeven": "true"
+    "target": "self"
   },
   {
     "label": "Name",

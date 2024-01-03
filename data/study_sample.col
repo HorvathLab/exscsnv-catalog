@@ -1,0 +1,48 @@
+[ 
+  {
+    "label": "BioSample",
+    "tag": "biosampleid",
+    "type": "extid",
+    "exturl": "https://www.ncbi.nlm.nih.gov/biosample/",
+    "width": "110px",
+    "align": "left"
+  },
+  {
+    "label": "Sample Name",
+    "tag": "name",
+    "align": "left"
+  },
+  {
+    "label": "Source",
+    "tag": "source name",
+    "align": "left"
+  },
+  {
+    "label": "Tissue",
+    "tag": "tissue",
+    "align": "left"
+  },
+  {
+    "label": "Disease",
+    "tag": "disease",
+    "align": "left"
+  },
+  {
+    "label": "Tumor Stage",
+    "tag": "tumor stage"
+  },
+  {
+    "label": "Age",
+    "tag": "age"
+  },
+  {
+    "label": "Sex",
+    "tag": "sex",
+    "width": "80px"
+  },
+  {
+    "label": "Local ID",
+    "tag": "id",
+    "width": "80px"
+  }
+]

@@ -1,0 +1,66 @@
+[ 
+  {
+    "label": "Name",
+    "tag": "name"
+  },
+  {
+    "label": "StudyID",
+    "tag": "studyid"
+  },
+  {
+    "label": "BioProject",
+    "tag": "bioprojectid",
+    "type": "extid",
+    "exturl": "https://www.ncbi.nlm.nih.gov/biosample/"
+  },
+  {
+    "label": "Pubmed",
+    "tag": "pmid",
+    "type": "extid",
+    "exturl": "https://pubmed.ncbi.nlm.nih.gov/"
+  },
+  {
+    "label": "Organism",
+    "tag": "organism"
+  },
+  {
+    "label": "Source",
+    "tag": "source name"
+  },
+  {
+    "label": "Cell Type",
+    "tag": "cell type"
+  },
+  {
+    "label": "Tissue",
+    "tag": "tissue"
+  },
+  {
+    "label": "Disease",
+    "tag": "disease"
+  },
+  {
+    "label": "Chromium",
+    "tag": "chromium version"
+  },
+  {
+    "label": "Read Length",
+    "tag": "read length"
+  },
+  {
+    "label": "#Samples",
+    "tag": "nsamples"
+  },
+  {
+    "label": "Metadata",
+    "tag": "metadata",
+    "type": "extid",
+    "exturl": "%%%studyid%%%_metadata.json"
+  },
+  {
+    "label": "sceSNVs",
+    "tag": "variants",
+    "type": "extid",
+    "exturl": "%%%studyid%%%_sceSNV.tsv"
+  }
+]
