@@ -87,6 +87,7 @@ function rowindex(i) {
 }
 
 function samptrans(data,callback) {
+  studyid = data['studyid']
   rows = data['samples'];
   validtags = new Set();
   for (let r of rows) {
@@ -103,6 +104,10 @@ function samptrans(data,callback) {
 	}
     }
   }
+  for (let r of rows) {
+    r['rawreads'] = studyid+"_"+r['biosampleid']+".brc";
+  }
+  validtags.add("rawreads");
   for (let i=this.columns.length-1;i>=0;i--) {
     let c = this.columns[i];
     if (!validtags.has(c.tag)) {

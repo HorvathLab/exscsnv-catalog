@@ -592,10 +592,14 @@ let d3table = {
                             return "";
                         }
                     } else if (d.column.type == "extid" && d.column.exturl !== undefined) {
+                        let val = d.value;
+                        if (d.column.urltext !== undefined) {
+                            val = d.column.urltext;
+                        }
 			if (d.column.target != 'self') {
-	                    return "<A href="+d.column.exturl+d.value+" target=\"_blank\">"+d.value+"</A>";
+	                    return "<A href="+d.column.exturl+d.value+" target=\"_blank\">"+val+"</A>";
 			} else {
-	                    return "<A href="+d.column.exturl+d.value+" >"+d.value+"</A>";			    
+	                    return "<A href="+d.column.exturl+d.value+" >"+val+"</A>";			    
 			}
                     } else if (d.column.type == "img" && d.column.imgurl !== undefined) {
 	                url = d.column.imgurl.replace(/{}/g, d.value);
