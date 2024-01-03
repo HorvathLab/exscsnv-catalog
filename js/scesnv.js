@@ -4,14 +4,14 @@ function init() {
   currenturl = currenturl.replace(/^[\/]+/,'');
   currenturl = currenturl.replace(/[\/]+$/,'');
   currenturl = currenturl.split('/');
-  if (currenturl[currenturl.length-1] == "index.html") {
+  if (currenturl.length > 0 && currenturl[currenturl.length-1] == "index.html") {
       currenturl.pop()
   }
-  if (currenturl[currenturl.length-1] == "test.html") {
+  if (currenturl.length > 0 && currenturl[currenturl.length-1] == "test.html") {
       currenturl.pop()
   }
-  if (currenturl[0] == "") {
-      currenturl.pop()
+  if (currenturl.length > 0 && currenturl[0] == "") {
+      currenturl.shift()
   }
   while (currenturl.includes('scesnv-catalog')) {
       currenturl.shift();
