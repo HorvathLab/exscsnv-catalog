@@ -10,10 +10,12 @@ function init() {
   if (currenturl[currenturl.length-1] == "test.html") {
       currenturl.pop()
   }
+  if (currenturl[0] == "") {
+      currenturl.pop()
+  }
   while (currenturl.includes('scesnv-catalog')) {
       currenturl.shift();
   }
-  console.log(currenturl);
   if (currenturl.length == 0) {
       console.log("landing");
       initlanding();
