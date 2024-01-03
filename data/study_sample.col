@@ -51,7 +51,7 @@
     "width": "120px",
     "align": "center",
     "type": "extid",
-    "exturl": "https://github.com/HorvathLab/scesnv-catalog/releases/download/raw-read-counts-v1.0/",
+    "exturl": "https://github.com/HorvathLab/scesnv-catalog/releases/download/raw-read-counts/",
     "urltext": "Download"
   }
 ]
