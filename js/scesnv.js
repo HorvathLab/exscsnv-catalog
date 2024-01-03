@@ -13,6 +13,7 @@ function init() {
   while (currenturl.includes('scesnv-catalog')) {
       currenturl.shift();
   }
+  console.log(currenturl);
   if (currenturl.length == 0) {
       console.log("landing");
       initlanding();
