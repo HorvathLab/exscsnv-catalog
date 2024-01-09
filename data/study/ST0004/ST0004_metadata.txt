@@ -7,6 +7,14 @@ organism: Homo sapiens (9606)
 chromium version: v2
 read length: 150
 
+[sample:F107]
+name: F107
+biosampleid: SAMN12799257
+age: 13+2 PCW (post-conception wk)
+source name: fetal adrenal tissue
+disease: normal fetal adrenal tissue
+id: fa4
+
 [sample:F106]
 name: F106
 biosampleid: SAMN12799258

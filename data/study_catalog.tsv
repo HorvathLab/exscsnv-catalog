@@ -2,4 +2,4 @@ studyid	name	bioprojectid	pmid	organism	sample_count
 ST0001	Single-Cell Map of Diverse Immune Phenotypes in the Metastatic Brain Tumor Microenvironment of Non Small Cell Lung Cancer and triple negative breast cancer	PRJNA600483		Homo sapiens (9606)	3
 ST0002	Identification of a distinct luminal subgroup diagnosing and stratifying early stage prostate cancer by tissue-based single-cell RNA sequencing	PRJNA662503	33032611	Homo sapiens (9606)	2
 ST0003	Dissecting the transcriptomic landscape of the human intrahepatic cholangiocarcinoma by single cell RNA-sequencing	PRJNA576876		Homo sapiens (9606)	6
-ST0004	Transcriptomic Characterization of neuroblastoma by Single Cell RNA Sequencing	PRJNA573097	32946775	Homo sapiens (9606)	16
+ST0004	Transcriptomic Characterization of neuroblastoma by Single Cell RNA Sequencing	PRJNA573097	32946775	Homo sapiens (9606)	17

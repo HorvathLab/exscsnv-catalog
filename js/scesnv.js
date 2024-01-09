@@ -191,10 +191,12 @@ function vartrans(data,callback) {
 	}
 	data.push.apply(data, newrows);
 	data.sort(function (a,b) { return locuscmp(a['SNV'],b['SNV']); });
-	goodsamples = Array.from(goodsamples);
-	goodsamples.sort();
-	for (let i in goodsamples) {
-	    thethis.columns.push({'tag': allsamples[i], 'label': "S"+(parseInt(i)+1).toString(), 'type': 'int', 'align': 'right', 'searchable': true, 'sortable': true, 'width': "50px"});
+	// goodsamples = Array.from(goodsamples);
+	// goodsamples.sort();
+	for (let i in allsamples) {
+            if (goodsamples.has(allsamples[i])) {
+	      thethis.columns.push({'tag': allsamples[i], 'label': "S"+(parseInt(i)+1).toString(), 'type': 'int', 'align': 'right', 'searchable': true, 'sortable': true, 'width': "50px"});
+            }
 	}
 	thethis.columns[0].compare = locuscmp;
 	callback(data);
