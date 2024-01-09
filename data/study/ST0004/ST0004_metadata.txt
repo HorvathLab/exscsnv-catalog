@@ -129,3 +129,32 @@ disease: normal embryo
 chromium version: v3
 id: ne1
 
+[sample:T230]
+name: T230
+biosampleid: SAMN15453063
+sex: male
+age: 4Y8M
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+chromium version: v3
+id: nb10
+
+[sample:T214]
+name: T214
+biosampleid: SAMN15453064
+sex: female
+age: 3M28D
+source name: neuroblastoma tissue
+disease: neuroblastoma tissue
+chromium version: v3
+id: nb11
+
+[sample:F379]
+name: F379
+biosampleid: SAMN15453069
+age: about 4 PCW
+source name: fetal adrenal tissue
+disease: normal embryo
+chromium version: v3
+id: ne2
+
