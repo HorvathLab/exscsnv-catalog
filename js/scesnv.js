@@ -147,9 +147,9 @@ function vartrans(data,callback) {
                 }
             }
             if (varcnt > 0 || wtcnt > 0) {
-                row['vaf'] = (varcnt/(varcnt+wtcnt)).toString();
+                row['maf'] = (varcnt/(varcnt+wtcnt)).toString();
             } else {
-                row['vaf'] = "";
+                row['maf'] = "";
             }
 	}
 	goodsamples = new Set();

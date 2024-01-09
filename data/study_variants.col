@@ -37,10 +37,10 @@
     "width": "120px"
   },
   {
-    "label": "VAF",
-    "tag": "vaf",
+    "label": "Pop. MAF",
+    "tag": "maf",
     "align": "right",
-    "width": "60px",
+    "width": "80px",
     "searchable": true,
     "sortable": true,
     "type": "percent",
