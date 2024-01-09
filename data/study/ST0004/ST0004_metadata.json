@@ -8,14 +8,6 @@
   "read length": "150",
   "samples": [
     {
-      "name": "F107",
-      "biosampleid": "SAMN12799257",
-      "age": "13+2 PCW (post-conception wk)",
-      "source name": "fetal adrenal tissue",
-      "disease": "normal fetal adrenal tissue",
-      "id": "fa4"
-    },
-    {
       "name": "F106",
       "biosampleid": "SAMN12799258",
       "age": "14+4 PCW (post-conception wk)",
