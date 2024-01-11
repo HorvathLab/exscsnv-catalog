@@ -412,7 +412,7 @@ let d3table = {
 			return false;
                     })
                     .append("span")
-		    .html("&#x2315;")
+                    .html("&#x2315;")
                     .attr("title", "Search")
                     .style('cursor','pointer')
                     .style('float','right')
@@ -456,24 +456,24 @@ let d3table = {
 
             if (this.paged) {
                 d3.select('#'+this.divid).append("div").style('float','right')
-                   .append("span").html("&#x2B72;").attr("title","Last Page")
-                   .style('cursor','pointer').style('font-size','28px').style('margin-left','10px')
+                   .append("i").attr('class','fa-solid fa-arrow-right-to-bracket fa-lg').attr("title","Last Page")
+                   .style('cursor','pointer').style('margin-top','20px').style('margin-left','10px').style('margin-bottom','20px')
                    .on('click',this.handler('lastpage'));
                 d3.select('#'+this.divid).append("div").style('float','right')
-                   .append("span").html("&#x2B62;").attr("title","Next Page")
-                   .style('cursor','pointer').style('font-size','28px').style('margin-left','10px')
+                   .append("i").attr('class','fa-solid fa-arrow-right fa-lg').attr("title","Next Page")
+                   .style('cursor','pointer').style('margin-top','20px').style('margin-left','10px').style('margin-bottom','20px')
                    .on('click',this.handler('nextpage'));
                 d3.select('#'+this.divid).append("div").style('float','left')
-                   .append("span").html("&#x2B70;").attr("title","First Page")
-                   .style('cursor','pointer').style('font-size','28px').style('margin-right','10px')
+                   .append("i").attr('class','fa-solid fa-arrow-right-to-bracket fa-flip-horizontal fa-lg').attr("title","First Page")
+                   .style('cursor','pointer').style('margin-top','20px').style('margin-right','10px').style('margin-bottom','20px')
                    .on('click',this.handler('firstpage'));
                 d3.select('#'+this.divid).append("div").style('float','left')
-                   .append("span").html("&#x2B60;").attr("title","Previous Page")
-                   .style('cursor','pointer').style('font-size','28px').style('margin-right','10px')
+                   .append("i").attr('class','fa-solid fa-arrow-left fa-lg').attr("title","Previous Page")
+                   .style('cursor','pointer').style('margin-top','20px').style('margin-right','10px').style('margin-bottom','20px')
                    .on('click',this.handler('prevpage'));
 		d3.select('#'+this.divid).append("div").classed('center',true)
                    .style('text-align','center').style('margin-top','6px')
-                   .append("span").html("&#x1F6C8;&nbsp;Help").attr("title","Help")
+                   .append("span").html('<i class="fa-solid fa-circle-info fa-lg"></i>&nbsp;Help').attr("title","Help")
                    .style('cursor','pointer').style('font-size','17px')
                    .on('click',this.handler('help'));
                 d3.select('#'+this.divid).select("div.center").append("span")
