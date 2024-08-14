@@ -11,7 +11,7 @@
     "label": "BioProject",
     "tag": "bioprojectid",
     "type": "extid",
-    "exturl": "https://www.ncbi.nlm.nih.gov/biosample/"
+    "exturl": "https://www.ncbi.nlm.nih.gov/bioproject/"
   },
   {
     "label": "Pubmed",
